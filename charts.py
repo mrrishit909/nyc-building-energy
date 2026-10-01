@@ -35,7 +35,7 @@ def label(term):
     if "era" in term:
         return "built " + term.split("T.")[1].rstrip("]") + " (vs 1960-79)"
     if "borough" in term:
-        return term.split("T.")[1].rstrip("]") + " (vs Manhattan)"
+        return term.split("T.")[1].rstrip("]").replace("Staten Is", "Staten Island") + " (vs Manhattan)"
     return NAMES.get(term, term)
 
 
@@ -96,6 +96,7 @@ def main():
     ax.bar(xs, g.values, color=BLUE, width=0.65)
     for i, (v, k) in enumerate(zip(g.values, cnt.values)):
         ax.text(i, v + 1, f"{v:.0f}", ha="center", color=INK, fontsize=9)
+    ax.set_ylim(0, g.max() * 1.12)
     ax.set_xlabel("share of the building's energy that is electricity")
     ax.set_ylabel("median kBtu per sq ft")
     ax.grid(axis="x", visible=False)
