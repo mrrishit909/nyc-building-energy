@@ -22,7 +22,7 @@ NYC Mayor's Office of Climate & Environmental Justice, "NYC Building Energy and 
 
 ## Cleaning (multifamily)
 
-39,090 reports → 38,857 existing buildings (230 "Test" records dropped) → 26,989 standalone properties (campus members
+39,090 reports → 38,857 existing buildings (230 "Test" and 3 "Design" records dropped) → 26,989 standalone properties (campus members
 are reported again under their parent) → 18,427 multifamily → 16,867 with weather-normalised EUI. Then 16,720 within
 10–500 kBtu/sq ft (values up to 11.7 million exist) and 16,547 at least 25,000 sq ft, the law's threshold. Finally 10,508
 without estimated or default values, and **10,491** with an electricity share. Re-running the model with the estimated-value
