@@ -1,0 +1,63 @@
+{
+  "Multifamily Housing": {
+    "n": 10490,
+    "r2": 0.5900511571544145,
+    "adj_r2": 0.5894248627320399,
+    "cv_r2": 0.587695372893541,
+    "cv_r2_size_only": 0.002248096896622531,
+    "breusch_pagan_p": 7.251129335389862e-219,
+    "max_vif": 3.4608008746124095,
+    "vif": {
+      "C(era, Treatment('1960-79'))[T.1930-59]": 2.788522041097411,
+      "C(era, Treatment('1960-79'))[T.1980-99]": 1.4783194084208484,
+      "C(era, Treatment('1960-79'))[T.2000-09]": 1.7506630108666956,
+      "C(era, Treatment('1960-79'))[T.2010+]": 1.9592286938208745,
+      "C(era, Treatment('1960-79'))[T.pre-1930]": 3.4608008746124095,
+      "C(borough, Treatment('Manhattan'))[T.Bronx]": 1.394439457666251,
+      "C(borough, Treatment('Manhattan'))[T.Brooklyn]": 1.5061415926456303,
+      "C(borough, Treatment('Manhattan'))[T.Queens]": 1.4107460427953795,
+      "C(borough, Treatment('Manhattan'))[T.Staten Is]": 1.0257948095568081,
+      "C(borough, Treatment('Manhattan'))[T.Unknown]": 1.043882795209908,
+      "log_area": 1.2850588554499272,
+      "electric_share": 1.3468354080938654,
+      "steam": 1.1011316691748565,
+      "oil": 1.0985722130900901,
+      "occupancy": 1.0385586966487466,
+      "units_per_10k_sqft": 1.1456087822775112
+    },
+    "cooks_over_4_over_n": 717,
+    "max_cooks": 0.06189022149523035,
+    "median_eui": 74.99999999999997,
+    "largest_huber_ols_gap": 0.060354766733468956
+  },
+  "Office": {
+    "n": 1032,
+    "r2": 0.22553835921676324,
+    "adj_r2": 0.21410437829968787,
+    "cv_r2": 0.1886924932438121,
+    "cv_r2_size_only": 0.0014211041739043972,
+    "breusch_pagan_p": 7.172030376698941e-13,
+    "max_vif": 3.1848719461683928,
+    "vif": {
+      "C(era, Treatment('1960-79'))[T.1930-59]": 2.1571919965021324,
+      "C(era, Treatment('1960-79'))[T.1980-99]": 1.6798533086255771,
+      "C(era, Treatment('1960-79'))[T.2000-09]": 1.326941465033525,
+      "C(era, Treatment('1960-79'))[T.2010+]": 1.4813144504775777,
+      "C(era, Treatment('1960-79'))[T.pre-1930]": 3.1848719461683928,
+      "C(borough, Treatment('Manhattan'))[T.Bronx]": 1.1215481517301302,
+      "C(borough, Treatment('Manhattan'))[T.Brooklyn]": 1.2418554683885643,
+      "C(borough, Treatment('Manhattan'))[T.Queens]": 1.3035006921313945,
+      "C(borough, Treatment('Manhattan'))[T.Staten Is]": 1.080670145267266,
+      "C(borough, Treatment('Manhattan'))[T.Unknown]": 1.0487163233926011,
+      "log_area": 1.5112345399052074,
+      "electric_share": 1.1576270623596483,
+      "steam": 2.0991692416647485,
+      "oil": 1.4657594224480026,
+      "occupancy": 1.0323203290783995
+    },
+    "cooks_over_4_over_n": 78,
+    "max_cooks": 0.04209789926462747,
+    "median_eui": 59.999999999999986,
+    "largest_huber_ols_gap": 0.07415026594221809
+  }
+}

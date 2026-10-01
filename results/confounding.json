@@ -1,0 +1,12 @@
+{
+  "median_electric_share_by_era": {
+    "1930-59": 0.16,
+    "1960-79": 0.19,
+    "1980-99": 0.29,
+    "2000-09": 0.35,
+    "2010+": 0.52,
+    "pre-1930": 0.18
+  },
+  "built_2010_plus_era_only": -35.8,
+  "built_2010_plus_with_electric_share": 8.9
+}

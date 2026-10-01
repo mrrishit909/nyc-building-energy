@@ -1,0 +1,86 @@
+{
+  "Multifamily Housing": [
+    [
+      "all 2024 reports",
+      39090
+    ],
+    [
+      "existing buildings (not 'Test' or 'Design')",
+      38857
+    ],
+    [
+      "standalone properties (campus members are reported again under their parent)",
+      26989
+    ],
+    [
+      "primary use: Multifamily Housing",
+      18427
+    ],
+    [
+      "weather-normalised EUI reported",
+      16867
+    ],
+    [
+      "EUI in a physically plausible range (10-500 kBtu/sq ft)",
+      16720
+    ],
+    [
+      "floor area at least 25,000 sq ft (the law's threshold)",
+      16547
+    ],
+    [
+      "year built 1800-2024",
+      16545
+    ],
+    [
+      "no default or estimated values, no data-quality alerts",
+      10508
+    ],
+    [
+      "electricity share reported",
+      10491
+    ]
+  ],
+  "Office": [
+    [
+      "all 2024 reports",
+      39090
+    ],
+    [
+      "existing buildings (not 'Test' or 'Design')",
+      38857
+    ],
+    [
+      "standalone properties (campus members are reported again under their parent)",
+      26989
+    ],
+    [
+      "primary use: Office",
+      2212
+    ],
+    [
+      "weather-normalised EUI reported",
+      2054
+    ],
+    [
+      "EUI in a physically plausible range (10-1000 kBtu/sq ft)",
+      2008
+    ],
+    [
+      "floor area at least 25,000 sq ft (the law's threshold)",
+      1981
+    ],
+    [
+      "year built 1800-2024",
+      1980
+    ],
+    [
+      "no default or estimated values, no data-quality alerts",
+      1042
+    ],
+    [
+      "electricity share reported",
+      1032
+    ]
+  ]
+}
